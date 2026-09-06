@@ -1,0 +1,11 @@
+# Build Your First AI Computer Vision System
+# Install with: pip install -r requirements.txt
+
+# Week 1 — Camera + OpenCV
+opencv-python>=4.8.0
+
+# Weeks 2–3 — YOLO object detection
+ultralytics>=8.0.0
+
+# Week 4 — Talk to Arduino over USB
+pyserial>=3.5

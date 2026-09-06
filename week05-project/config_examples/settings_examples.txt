@@ -1,0 +1,16 @@
+# Example settings you can paste into Program 20
+
+## Pet detector
+allowed_labels = {"dog", "cat"}
+project_title = "AI PET DETECTOR"
+alert_text = "PET DETECTED"
+
+## Recycling / bottle watch
+allowed_labels = {"bottle"}
+project_title = "RECYCLING WATCH"
+alert_text = "BOTTLE IN ZONE"
+use_roi = True
+
+## Softer / stricter detection
+confidence_threshold = 0.35   # more detections
+confidence_threshold = 0.70   # fewer, stricter detections

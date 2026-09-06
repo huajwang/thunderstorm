@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Student-captured photos (keep the folder via .gitkeep)
+week01-camera/output/*
+!week01-camera/output/.gitkeep
+week05-project/output/*
+!week05-project/output/.gitkeep
+*.jpg
+*.jpeg
+*.png
+!assets/**/*.jpg
+!assets/**/*.jpeg
+!assets/**/*.png
+
+# YOLO / PyTorch weights (downloaded on first run — do not commit)
+*.pt
+*.pth
+*.onnx
+
