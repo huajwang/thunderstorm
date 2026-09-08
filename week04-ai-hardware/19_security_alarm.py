@@ -59,7 +59,7 @@ except ImportError:
 # 1. Settings
 # ------------------------------------------------------------
 camera_index = 0
-serial_port = "COM3"  # change to your port
+serial_port = "COM6"  # change to your port
 baud_rate = 9600
 
 allowed_labels = {"person"}

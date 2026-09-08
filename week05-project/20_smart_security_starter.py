@@ -68,7 +68,7 @@ roi_x2, roi_y2 = 440, 360
 
 # Hardware: set False for on-screen-only demos
 use_arduino = True
-serial_port = "COM3"             # change to your port
+serial_port = "COM6"             # change to your port
 baud_rate = 9600
 
 # Save a photo automatically when alarm triggers

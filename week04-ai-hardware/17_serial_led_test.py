@@ -57,7 +57,7 @@ except ImportError:
 # Windows examples: "COM3", "COM4"
 # Mac examples: "/dev/cu.usbmodem1101"
 # Linux examples: "/dev/ttyACM0"
-serial_port = "COM3"
+serial_port = "COM6"
 baud_rate = 9600
 
 # ------------------------------------------------------------
